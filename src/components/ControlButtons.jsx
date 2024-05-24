@@ -9,14 +9,14 @@ const ControlButtons = ({handleStart,handleCancel,isActive}) => {
         <Button variant='contained'
         color='primary'
         onClick={handleStart}
-        style={{fontSize:"0.9vw",width:"100%",border:"1.5px solid #fff",background:"none"}}
+        style={{fontSize:"1vw",width:"100%",border:"1.5px solid #fff",background:"none"}}
         >
             Start Timer
         </Button>
     ):(<Button variant='contained'
     color='secondary'
     onClick={handleCancel}
-    style={{fontSize:"0.9vw",width:"100%",border:"1.5px solid #fff",background:"none",}}>
+    style={{fontSize:"1vw",width:"100%",border:"1.5px solid #fff",background:"none",}}>
         Cancel Timer
     </Button>)}
  </Box>

@@ -18,7 +18,7 @@ console.log(value)
         type='datetime-local'
         value={targetDate}
         onChange={handleChange}
-        style={{width: "12vw", fontSize:"1.1vw",height:"5vh", background:"none",color:"white",border:"1.5px solid #fff",borderRadius:"4px", paddingLeft:"0.5vw"}}
+        style={{fontSize:"1.1vw",height:"4vh", background:"none",color:"white",border:"1.5px solid #fff",borderRadius:"4px", paddingLeft:"0.5vw"}}
         />
         </div>
   );
